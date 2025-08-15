@@ -8,6 +8,6 @@ public class ConversorTest {
         System.out.println("0 graus Celsius em Fahrenheit: " + fahrenheit);
 
         int totalMinutos = conversor.converter(1, 45);
-        System.out.println("1 hora e 45 minutos em minutos: " + totalMinutos);
+        System.out.println("1h e 45 min em minutos: " + totalMinutos);
     }
 }

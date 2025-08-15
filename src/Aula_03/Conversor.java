@@ -17,6 +17,6 @@ public class Conversor {
         System.out.println("25 graus Celsius em Fahrenheit: " + fahrenheit);
 
         int totalMinutos = conversor.converter(2, 30);
-        System.out.println("2 horas e 30 minutos em minutos: " + totalMinutos);
+        System.out.println("2 h e 30 min em minutos: " + totalMinutos);
     }
 }
