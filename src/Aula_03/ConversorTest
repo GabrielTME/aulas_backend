@@ -1,0 +1,13 @@
+package Aula_03;
+
+public class ConversorTest {
+    public static void main(String[] args) {
+        Conversor conversor = new Conversor();
+
+        double fahrenheit = conversor.converter(0.0);
+        System.out.println("0 graus Celsius em Fahrenheit: " + fahrenheit);
+
+        int totalMinutos = conversor.converter(1, 45);
+        System.out.println("1 hora e 45 minutos em minutos: " + totalMinutos);
+    }
+}

@@ -1,7 +1,19 @@
 package Aula_03;
 
+import java.util.Scanner;
+
 public class GradeBook {
-    public void displayMessage(){
-        System.out.println("Welcome to the GradeBook");
+    private String courseName;
+
+    public GradeBook() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite o nome do curso: ");
+        String input = scanner.nextLine();
+        this.courseName = input;
     }
+
+    public void showMessage() {
+        System.out.printf("Nome do curso: " + courseName);
+    }
+
 }
